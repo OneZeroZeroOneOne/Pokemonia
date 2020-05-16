@@ -7,7 +7,7 @@ namespace Pokemonia.Dal
 {
     public class DBWorker
     {
-        private string _connectionString = "User ID=postgres;Password=xxxxxx;Host=localhost;Port=5432;Database=coresample;Pooling=true;";
+        private string _connectionString = "Host=194.99.21.140;Database=postgres;Username=postgres;Password=werdwerd2012";
         public DBWorker()
         {
 
