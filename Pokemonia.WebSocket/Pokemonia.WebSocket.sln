@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokemonia.WebSocket", "Pokemonia.WebSocket\Pokemonia.WebSocket.csproj", "{766A5C85-E684-4B15-B1F6-C1E9665E7682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemonia.Enjine", "Pokemonia.Enjine\Pokemonia.Enjine.csproj", "{F0405C54-F68D-4AEF-B517-6F08D4E94E8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemonia.MapEngine", "Pokemonia.Enjine\Pokemonia.MapEngine.csproj", "{F0405C54-F68D-4AEF-B517-6F08D4E94E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemonia.Dal", "Pokemonia.Dal\Pokemonia.Dal.csproj", "{E73828FF-7F32-46B7-BFF7-2304C8EF1A45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemonia.Bll", "Pokemonia.Bll\Pokemonia.Bll.csproj", "{B0A86B39-F894-4A1E-B09D-E4A90F62D092}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F0405C54-F68D-4AEF-B517-6F08D4E94E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0405C54-F68D-4AEF-B517-6F08D4E94E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0405C54-F68D-4AEF-B517-6F08D4E94E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73828FF-7F32-46B7-BFF7-2304C8EF1A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73828FF-7F32-46B7-BFF7-2304C8EF1A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73828FF-7F32-46B7-BFF7-2304C8EF1A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73828FF-7F32-46B7-BFF7-2304C8EF1A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A86B39-F894-4A1E-B09D-E4A90F62D092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A86B39-F894-4A1E-B09D-E4A90F62D092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A86B39-F894-4A1E-B09D-E4A90F62D092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A86B39-F894-4A1E-B09D-E4A90F62D092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

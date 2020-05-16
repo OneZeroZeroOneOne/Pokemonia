@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Pokemonia.Enjine.Models
+namespace Pokemonia.MapEngine.Models
 {
     class User
     {

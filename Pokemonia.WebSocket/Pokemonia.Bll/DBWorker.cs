@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pokemonia.Enjine
+namespace Pokemonia.Bll
 {
     public class Class1
     {

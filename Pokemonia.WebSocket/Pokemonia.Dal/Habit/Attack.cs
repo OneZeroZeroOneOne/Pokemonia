@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Pokemonia.MapEngine.Habit.TypesAttack;
 
-namespace Pokemonia.Enjine.Habit
+namespace Pokemonia.MapEngine.Habit
 {
     public class Attack
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Pokemonia.Enjine.Models
+namespace Pokemonia.MapEnjine
 {
-    class Pig
+    public class MapEngine
     {
     }
 }

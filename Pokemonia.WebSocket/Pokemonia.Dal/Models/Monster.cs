@@ -1,16 +1,17 @@
-﻿using Pokemonia.Enjine.Habit;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Pokemonia.Dal.Habit.Spells;
+using Pokemonia.Dal.Habit;
 
-namespace Pokemonia.Enjine.Models
+namespace Pokemonia.Dal.Models
 {
     class Monster
     {
         public double Hp;
-        public double Mp;
         public Attack Atk;
         public Deffence Def;
+        public List<Spell> Spells;
         public double SecontTypeElement;
         public double FirstTypeElement;
 
