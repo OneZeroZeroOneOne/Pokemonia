@@ -1,8 +1,22 @@
-﻿using System;
+﻿using Npgsql;
+using System;
+using System.Data;
 
 namespace Pokemonia.Bll
 {
-    public class Class1
+    public class DBWorker
     {
+        private string _connectionString;
+        public DBWorker()
+        {
+
+        }
+        internal IDbConnection Connection
+        {
+            get
+            {
+                return new NpgsqlConnection();
+            }
+        }
     }
 }

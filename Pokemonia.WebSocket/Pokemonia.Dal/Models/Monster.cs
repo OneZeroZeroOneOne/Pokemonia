@@ -6,7 +6,7 @@ using Pokemonia.Dal.Habit;
 
 namespace Pokemonia.Dal.Models
 {
-    class Monster
+    public class Monster
     {
         public double Hp;
         public Attack Atk;

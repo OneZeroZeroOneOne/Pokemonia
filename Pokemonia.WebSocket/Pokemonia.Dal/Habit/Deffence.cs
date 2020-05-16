@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Pokemonia.MapEngine.Habit.TypesDeffence
+using Pokemonia.Dal.Habit.TypesDeffence;
 
-namespace Pokemonia.MapEngine.Habit
+namespace Pokemonia.Dal.Habit
 {
-    class Deffence
+    public class Deffence
     {
         public TypeDeffence FirstElementDeffence;
         public TypeDeffence SecondElementDeffence;
