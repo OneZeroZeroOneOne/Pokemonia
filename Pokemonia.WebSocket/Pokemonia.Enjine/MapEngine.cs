@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Pokemonia.Bll;
 using Pokemonia.Dal;
 using Pokemonia.Dal.Models;
 using Pokemonia.Dal.Maps;
@@ -17,10 +16,12 @@ namespace Pokemonia.MapEnjine
         private Map _map;
         private Dictionary<int, User> _users;
         private Dictionary<int, Coordinates> _usersCoordinates;
-        private List<Monster> _monsters;
+        private Dictionary<Guid, Pokemon> _monsters;
+        private Dictionary<Guid, Coordinates> _monstersCoordinates;
         public MapEngine(int mapId)
         {
             _dbWorker = new DBWorker();
+
         }
     }
 }
