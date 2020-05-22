@@ -2,6 +2,10 @@
 using Dapper;
 using System;
 using System.Data;
+using Pokemonia.Dal.Models;
+using Pokemonia.Dal.Queryes;
+using Pokemonia.Dal.Extentions;
+using System.Threading.Tasks;
 
 namespace Pokemonia.Dal
 {
@@ -16,7 +20,14 @@ namespace Pokemonia.Dal
         {
             get
             {
-                return new NpgsqlConnection();
+                return new NpgsqlConnection(_connectionString);
+            }
+        }
+        async public Task<Map> GetMap(int mapId)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                return await dbConnection.GetMap(mapId);
             }
         }
     }
