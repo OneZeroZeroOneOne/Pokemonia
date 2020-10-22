@@ -6,7 +6,7 @@ namespace Pokemonia.Dal.Models
 {
     public class TemporaryObjectPokemon
     {
-        public int Id;
+        public Guid Id;
         public string Name;
     }
 }

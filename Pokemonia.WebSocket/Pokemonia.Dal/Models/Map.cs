@@ -5,11 +5,6 @@ namespace Pokemonia.Dal.Models
 {
     public partial class Map
     {
-        public Map()
-        {
-            MapDecoration = new HashSet<MapDecoration>();
-        }
-
         public long Id { get; set; }
         public string Name { get; set; }
         public long Height { get; set; }
